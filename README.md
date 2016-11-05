@@ -1,5 +1,6 @@
 # bash-2fa
 A 2 factor authentication code generator front-end for oathtool using Bash.
+Requires installation of oathtool (available from oath-toolkit).
 
 # How to install
 1. Create a symlink in /usr/local/bin: `sudo ln -s /home/$(whoami)/bash-2fa/src/2fa.sh /usr/local/bin/2fa`.
