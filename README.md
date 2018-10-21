@@ -1,11 +1,13 @@
-# bash-2fa
-A 2 factor authentication code generator front-end for oathtool using Bash.
+A 2 factor authentication code (TOTP) generator front-end for oathtool using Bash.  
 Requires installation of oathtool (available from oath-toolkit).
 
-# How to install
-1. Navigate to the src/ directory.
-2. Run `bash install.sh` (sudo password will be required to copy exectuable into /usr/local/bin)
+## Installation
+1. Install oath-toolkit (e.g. `sudo apt install oath-toolkit`) and ensure that `oathtool` can be run from the command line.
+2. Navigate to the src/ directory.
+3. Run `bash install.sh` (sudo password will be required to copy exectuable into `/usr/local/bin`)
 
-# Usage instructions
-`2fa [token_name]` will return the current authentication code for the token called "token_name".
+## Configuration
+Configure your tokens in `~/.bash-2fa/tokens.conf`. Use the existing tempalate for fomatting.
 
+## Usage
+If token_name is configured with a key in `~/.bash-2fa/tokens.conf`, run `2fa token_name` will return a 2FA code for this token.
