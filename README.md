@@ -1,4 +1,5 @@
-A 2 factor authentication code (TOTP) generator front-end for oathtool using Bash.  
+# bash-2fa
+A super simple 2 factor authentication code (TOTP) generator front-end for oathtool using Bash.  
 Requires installation of oathtool (available from oath-toolkit).
 
 ## Installation
