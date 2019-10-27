@@ -1,2 +1,2 @@
-rm -f ~/bin/2fa
+rm -f ~/.local/bin/2fa
 rm -rf ~/.bash-2fa
