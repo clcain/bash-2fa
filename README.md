@@ -7,7 +7,7 @@ Requires installation of oathtool (available from oath-toolkit).
 
 1. Install oath-toolkit (`sudo apt install oath-toolkit`)
 2. Run the installation srcipt (`bash install.sh`)
-3. Ensure that $HOME/.local/bin is in your PATH variable by adding the following to ~/.bashrc.
+3. Ensure that `$HOME/.local/bin` is in your PATH variable by adding the following to `~/.bashrc`.
 ```
 export PATH=$HOME/.local/bin:$PATH
 ```
